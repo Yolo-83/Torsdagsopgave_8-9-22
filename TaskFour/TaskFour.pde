@@ -1,5 +1,6 @@
+int antalstuderende = 20;
 
-for(int i = 0; i <= 20; i++){
+for(int i = 0; i <=  antalstuderende; i++){
 
 println(i);
 }
@@ -14,3 +15,17 @@ println(i);
 }
 i++;
 }
+
+
+
+//  En anden måde at gøre det på
+/*
+int antalstuderende = 20;
+int i = 0;
+while(i <= antalstuderende){
+  
+  println("Hej");
+  
+}
+i++;
+*/

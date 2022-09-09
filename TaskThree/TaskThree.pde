@@ -44,16 +44,24 @@ void draw() {
       ellipse(width/2,200,70,70);
     }
     
-    else {
+    else if (lys == 3) {
       fill(#03FF04);  // GRØN
       ellipse(width/2,400,70,70);
       fill(#4D4D4D);
       ellipse(width/2,200,70,70);
       ellipse(width/2,300,70,70);
+    }
+    
+    else {
+      fill(#FFAF00);   // GUL
+      ellipse(width/2,300,70,70);
+      fill(#4D4D4D);
+      ellipse(width/2,400,70,70);
+      ellipse(width/2,200,70,70);
       lys = 0;
     }
 
   // Vente tid til farve skift
   lys++;
-  delay(1000);
+  delay(2000);
 }
